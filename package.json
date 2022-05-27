@@ -1,0 +1,26 @@
+{
+  "name": "h5-server-koa",
+  "version": "1.0.0",
+  "description": "IS H5 Node Server",
+  "main": "bin/www.js",
+  "author": "willwil",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon bin/www.js",
+    "dev": "pm2 start ecosystem.config.js --env dev",
+    "test": "pm2 start ecosystem.config.js --env test",
+    "pro": "pm2 start ecosystem.config.js --env pro",
+    "logs": "pm2 logs",
+    "stop": "pm2 stop ecosystem.config.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-router": "^10.1.1",
+    "koa-send": "^5.0.1",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
