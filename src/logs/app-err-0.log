@@ -1,0 +1,30 @@
+2022-04-28 13:42:47: 
+  TypeError: Converting circular structure to JSON
+      --> starting at object with constructor 'Socket'
+      |     property 'parser' -> object with constructor 'HTTPParser'
+      --- property 'socket' closes the circle
+      at JSON.stringify (<anonymous>)
+      at D:\ghy_service\koa\src\routes\weather.js:13:28
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async bodyParser (D:\ghy_service\koa\node_modules\koa-bodyparser\index.js:95:5)
+
+2022-04-28 13:43:15: 
+  TypeError: Converting circular structure to JSON
+      --> starting at object with constructor 'Socket'
+      |     property 'parser' -> object with constructor 'HTTPParser'
+      --- property 'socket' closes the circle
+      at JSON.stringify (<anonymous>)
+      at D:\ghy_service\koa\src\routes\weather.js:13:28
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async bodyParser (D:\ghy_service\koa\node_modules\koa-bodyparser\index.js:95:5)
+
+2022-04-28 13:43:46: 
+  TypeError: Converting circular structure to JSON
+      --> starting at object with constructor 'Socket'
+      |     property 'parser' -> object with constructor 'HTTPParser'
+      --- property 'socket' closes the circle
+      at JSON.stringify (<anonymous>)
+      at D:\ghy_service\koa\src\routes\weather.js:13:28
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async bodyParser (D:\ghy_service\koa\node_modules\koa-bodyparser\index.js:95:5)
+

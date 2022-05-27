@@ -1,0 +1,100 @@
+2022-04-18 10:39:43: undefined
+2022-04-18 10:39:43: server running at 3001
+2022-04-18 10:39:43: 端口port 3001 已启动
+2022-04-18 10:39:45: undefined
+2022-04-18 10:39:45: server running at 3001
+2022-04-18 10:39:45: 端口port 3001 已启动
+2022-04-18 10:40:35: undefined
+2022-04-18 10:40:35: server running at 3001
+2022-04-18 10:40:35: 端口port 3001 已启动
+2022-04-18 10:40:38: undefined
+2022-04-18 10:40:38: server running at 3001
+2022-04-18 10:40:38: 端口port 3001 已启动
+2022-04-18 10:40:51: undefined
+2022-04-18 10:40:51: server running at 3001
+2022-04-18 10:40:51: 端口port 3001 已启动
+2022-04-18 10:41:16: undefined
+2022-04-18 10:41:16: server running at 3001
+2022-04-18 10:41:16: 端口port 3001 已启动
+2022-04-18 11:12:27: undefined
+2022-04-18 11:12:27: server running at 3001
+2022-04-18 11:12:27: 端口port 3001 已启动
+2022-04-18 11:34:14: undefined
+2022-04-18 11:34:14: server running at 3001
+2022-04-18 11:34:14: 端口port 3001 已启动
+2022-04-18 11:40:47: undefined
+2022-04-18 11:40:48: server running at 3001
+2022-04-18 11:40:48: 端口port 3001 已启动
+2022-04-18 11:40:55: server running at 3001
+2022-04-18 11:40:55: 端口port 3001 已启动
+2022-04-18 11:41:01: 端口port 3001 已启动
+2022-04-18 11:41:09: 端口port 3001 已启动
+2022-04-20 09:37:36: 端口port 3001 已启动
+2022-04-20 17:26:38: 端口port 3001 已启动
+2022-04-21 08:58:35: 端口port 3001 已启动
+2022-04-21 17:14:00: 端口port 3001 已启动
+2022-04-22 11:20:59: 端口port 3001 已启动
+2022-04-22 11:22:32: 端口port 3001 已启动
+2022-04-22 11:22:47: 端口port 3001 已启动
+2022-04-22 11:30:07: 端口port 3001 已启动
+2022-04-22 11:56:12: 端口port 3002 已启动
+2022-04-22 14:01:33: 端口port 3002 已启动
+2022-04-28 13:24:54: 端口port 3001 已启动
+2022-04-28 13:25:14: 端口port 3001 已启动
+2022-04-28 13:25:40: 端口port 3001 已启动
+2022-04-28 13:25:52: 端口port 3001 已启动
+2022-04-28 13:25:58: 端口port 3001 已启动
+2022-04-28 13:26:20: 端口port 3001 已启动
+2022-04-28 13:27:49: 端口port 3001 已启动
+2022-04-28 13:28:01: 端口port 3001 已启动
+2022-04-28 13:29:50: 端口port 3001 已启动
+2022-04-28 13:30:01: 状态码: 200
+2022-04-28 13:32:41: {
+  request: {
+    method: 'GET',
+    url: '/weather',
+    header: {
+      'user-agent': 'ApiPOST Runtime +https://www.apipost.cn',
+      accept: '*/*',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN',
+      connection: 'keep-alive',
+      'content-type': 'multipart/form-data; boundary=--------------------------861596793060083994206584',
+      'content-length': '163',
+      host: 'localhost:3001'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/weather',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2022-04-28 13:32:41: 状态码: 200
+2022-04-28 13:32:55: 状态码: 200
+2022-04-28 13:33:38: 端口port 3001 已启动
+2022-04-28 13:33:50: 状态码: 200
+2022-04-28 13:35:58: 端口port 3001 已启动
+2022-04-28 13:36:21: hostname: www.tianqiapi.com 状态码: 200
+2022-04-28 13:41:43: 端口port 3001 已启动
+2022-04-28 13:41:51: hostname: www.tianqiapi.com 状态码: 200
+2022-04-28 13:41:51: originalUrl: /weather
+2022-04-28 13:41:51: req: [object Object]
+2022-04-28 13:41:51: res: [object Object]
+2022-04-28 13:42:40: 端口port 3001 已启动
+2022-04-28 13:42:47: hostname: www.tianqiapi.com 状态码: 200
+2022-04-28 13:42:47: originalUrl: /weather
+2022-04-28 13:43:15: hostname: www.tianqiapi.com 状态码: 200
+2022-04-28 13:43:15: originalUrl: /weather
+2022-04-28 13:43:46: hostname: www.tianqiapi.com 状态码: 200
+2022-04-28 13:43:46: originalUrl: /weather
+2022-04-28 13:45:14: 端口port 3001 已启动
+2022-04-28 13:45:22: hostname: www.tianqiapi.com 状态码: 200
+2022-04-28 13:45:22: originalUrl: /weather2022-04-28 13:50:39: 端口port 3001 已启动
+2022-04-28 13:50:54: hostname: www.tianqiapi.com 状态码: 200
+2022-04-28 13:50:54: originalUrl: /weather 状态码：200
